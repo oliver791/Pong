@@ -30,7 +30,7 @@ Vous pouvez jouer directement en ouvrant `index.html` dans votre navigateur, ou 
 - L'angle de rebond dépend de l'endroit où la balle touche la raquette.
 
 ## 🗂️ Structure du projet
-
+```
 pong/
 ├── index.html # Page principale
 ├── pong.js # Logique du jeu
@@ -42,7 +42,7 @@ pong/
 │ └── Aaah.mp3
 ├── screenshot.png # Capture d'écran
 └── README.md
-
+```
 
 ## 🚀 Installation
 
@@ -63,3 +63,4 @@ open index.html
 📝 Licence
 
 Ce projet est libre d'utilisation. Fait avec ❤️ par Oliver791.
+
