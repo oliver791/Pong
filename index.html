@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong — Oliver</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 8px;
+    }
+
+    #en-tete {
+      background-color: #f1f2f6;
+      text-align: center;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom, white, #f1f2f6);
+    }
+
+    #main {
+      text-align: center;
+    }
+
+    #myCanvas {
+      border: 1px solid blue;
+      background-color: white;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #score {
+      color: #FF007F;
+      font-size: xx-large;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+    }
+
+    .bouton {
+      border-radius: 10px;
+      padding: 6px 12px;
+      margin-top: 10px;
+      color: #DB0073;
+      cursor: pointer;
+    }
+
+    #boutons {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    #bas-de-page {
+      background-color: #f1f2f6;
+      text-align: center;
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom, white, #f1f2f6);
+      margin-top: 40px;
+      padding: 10px;
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="en-tete">
+    <h1>
+      <span style="color:red">P</span><span style="color:orange">o</span><span style="color:green">n</span><span style="color:blue">g</span>
+    </h1>
+  </div>
+
+  <div id="main">
+    <canvas id="myCanvas" width="1200" height="400"></canvas>
+
+    <div id="score">
+      <span id="scoreIA"></span>
+      <span id="scorePlayer"></span>
+    </div>
+
+    <div id="boutons">
+      <input type="button" class="bouton" value="Start" onclick="start()">
+      <input type="button" class="bouton" value="Pause" onclick="pause()">
+      <input type="button" class="bouton" value="New Game" onclick="document.location.reload()">
+      <input type="button" class="bouton" id="son" value="Sound" onclick="audio()">
+    </div>
+  </div>
+
+  <div id="bas-de-page">By Oliver</div>
+
+  <script src="pong.js"></script>
+</body>
+</html>
