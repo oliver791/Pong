@@ -8,7 +8,7 @@ Un jeu de Pong classique développé en JavaScript vanilla avec l'API Canvas.
 
 Vous pouvez jouer directement en ouvrant `index.html` dans votre navigateur, ou via GitHub Pages :
 
-👉 [Jouer en ligne](https://oliver791.github.io/pong/)
+👉 [Jouer en ligne](https://oliver791.github.io/Pong/)
 
 ## 🕹️ Contrôles
 
@@ -61,5 +61,6 @@ open index.html
 📝 Licence
 
 Ce projet est libre d'utilisation. Fait avec ❤️ par Oliver791.
+
 
 
