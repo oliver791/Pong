@@ -10,8 +10,6 @@ Vous pouvez jouer directement en ouvrant `index.html` dans votre navigateur, ou 
 
 👉 [Jouer en ligne](https://oliver791.github.io/pong/)
 
-> Remplacez le lien ci-dessus par votre URL GitHub Pages une fois activé.
-
 ## 🕹️ Contrôles
 
 | Action | Contrôle |
@@ -63,4 +61,5 @@ open index.html
 📝 Licence
 
 Ce projet est libre d'utilisation. Fait avec ❤️ par Oliver791.
+
 
